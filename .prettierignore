@@ -1,0 +1,14 @@
+build
+build/
+**/build
+coverage
+coverage/
+**/coverage
+node_modules
+node_modules/
+**/node_modules
+.idea
+.yarn
+.yarn/
+.husky
+bin

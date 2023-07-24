@@ -1,3 +1,4 @@
 {
-    "*.(tsx|ts|jsx|js)": ["eslint --max-warnings=0"]
-  }
+  "*.json": ["prettier --write"],
+  "*.(tsx|ts|jsx|js)": ["prettier --write", "eslint --max-warnings=0"]
+}
