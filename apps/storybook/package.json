@@ -33,6 +33,7 @@
     "prop-types": "^15.8.1",
     "sass": "^1.63.6",
     "storybook": "^7.0.27",
+    "storybook-addon-data-theme-switcher": "0.1.7",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
   }

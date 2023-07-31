@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    &:focus-visible {
+        outline: 2px solid var(--color-accent);
+    }
+}
+
+body {
+    min-width: 320px;
+    color: var(--color-text-primary);
+    text-wrap: balance;
+    white-space: pre-line;
+    background-color: var(--color-background-primary);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    scrollbar-gutter: stable;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

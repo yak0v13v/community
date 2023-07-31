@@ -12734,6 +12734,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"storybook-addon-data-theme-switcher@npm:0.1.7":
+  version: 0.1.7
+  resolution: "storybook-addon-data-theme-switcher@npm:0.1.7"
+  peerDependencies:
+    "@storybook/components": ^7.0.2
+    "@storybook/manager-api": ^7.0.2
+    "@storybook/preview-api": ^7.0.2
+    "@storybook/theming": ^7.0.2
+    "@storybook/types": ^7.0.2
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: cf7bffc787b8156f636a4aa9477d5eb13291ef1f58cd78c5ce901f2bada1e29576a4bd007b2545e594d93262452bf79bf9a6381293d868bcbd19b2be777f5610
+  languageName: node
+  linkType: hard
+
 "storybook@npm:^7.0.27":
   version: 7.0.27
   resolution: "storybook@npm:7.0.27"
@@ -12773,6 +12793,7 @@ __metadata:
     react-dom: ^18.2.0
     sass: ^1.63.6
     storybook: ^7.0.27
+    storybook-addon-data-theme-switcher: 0.1.7
     typescript: ^5.0.2
     vite: ^4.4.0
   languageName: unknown
