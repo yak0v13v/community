@@ -1918,6 +1918,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@effector/next@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "@effector/next@npm:0.5.1"
+  peerDependencies:
+    effector: ^22.8.1
+    effector-react: ^22.5.1
+    react: ^18.2.0
+  checksum: 4946b0fa25a4f03f7d214aaff64eb3b521460eacffb79fd557b230f472160008dce16bf13b750dee9f57019f514c00bc4d49c46482683bffba821ac2bbceaa3e
+  languageName: node
+  linkType: hard
+
+"@effector/swc-plugin@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "@effector/swc-plugin@npm:0.0.10"
+  checksum: 7585c8dfe5e8fa6f71a8e0a6210027be4ba7a0295f80d0b5d9193aa718a35f4ee95adfc4c9f507e9674bd448fc53d3cfa17044a702df5a0d4dccf6fbfe0d7ec8
+  languageName: node
+  linkType: hard
+
 "@emotion/use-insertion-effect-with-fallbacks@npm:^1.0.0":
   version: 1.0.1
   resolution: "@emotion/use-insertion-effect-with-fallbacks@npm:1.0.1"
@@ -3875,9 +3893,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-darwin-arm64@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-darwin-arm64@npm:1.3.73"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@swc/core-darwin-x64@npm:1.3.68":
   version: 1.3.68
   resolution: "@swc/core-darwin-x64@npm:1.3.68"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-darwin-x64@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-darwin-x64@npm:1.3.73"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -3889,9 +3921,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-linux-arm-gnueabihf@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.73"
+  conditions: os=linux & cpu=arm
+  languageName: node
+  linkType: hard
+
 "@swc/core-linux-arm64-gnu@npm:1.3.68":
   version: 1.3.68
   resolution: "@swc/core-linux-arm64-gnu@npm:1.3.68"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-arm64-gnu@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.73"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
@@ -3903,9 +3949,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-linux-arm64-musl@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-linux-arm64-musl@npm:1.3.73"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
 "@swc/core-linux-x64-gnu@npm:1.3.68":
   version: 1.3.68
   resolution: "@swc/core-linux-x64-gnu@npm:1.3.68"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@swc/core-linux-x64-gnu@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-linux-x64-gnu@npm:1.3.73"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -3917,9 +3977,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-linux-x64-musl@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-linux-x64-musl@npm:1.3.73"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
 "@swc/core-win32-arm64-msvc@npm:1.3.68":
   version: 1.3.68
   resolution: "@swc/core-win32-arm64-msvc@npm:1.3.68"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-arm64-msvc@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.73"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
@@ -3931,9 +4005,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@swc/core-win32-ia32-msvc@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.73"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
 "@swc/core-win32-x64-msvc@npm:1.3.68":
   version: 1.3.68
   resolution: "@swc/core-win32-x64-msvc@npm:1.3.68"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@swc/core-win32-x64-msvc@npm:1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core-win32-x64-msvc@npm:1.3.73"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -3979,6 +4067,50 @@ __metadata:
     "@swc/helpers":
       optional: true
   checksum: f56ad1d4cb91f7cc1cb5d4b9894bbb528da0b2eabc98984581f5b3f3187cf2c0d512003880f6ff7a3f6d215b7a3dcbf5a9c45e8a428ac2d711941027c0151d89
+  languageName: node
+  linkType: hard
+
+"@swc/core@npm:^1.3.73":
+  version: 1.3.73
+  resolution: "@swc/core@npm:1.3.73"
+  dependencies:
+    "@swc/core-darwin-arm64": 1.3.73
+    "@swc/core-darwin-x64": 1.3.73
+    "@swc/core-linux-arm-gnueabihf": 1.3.73
+    "@swc/core-linux-arm64-gnu": 1.3.73
+    "@swc/core-linux-arm64-musl": 1.3.73
+    "@swc/core-linux-x64-gnu": 1.3.73
+    "@swc/core-linux-x64-musl": 1.3.73
+    "@swc/core-win32-arm64-msvc": 1.3.73
+    "@swc/core-win32-ia32-msvc": 1.3.73
+    "@swc/core-win32-x64-msvc": 1.3.73
+  peerDependencies:
+    "@swc/helpers": ^0.5.0
+  dependenciesMeta:
+    "@swc/core-darwin-arm64":
+      optional: true
+    "@swc/core-darwin-x64":
+      optional: true
+    "@swc/core-linux-arm-gnueabihf":
+      optional: true
+    "@swc/core-linux-arm64-gnu":
+      optional: true
+    "@swc/core-linux-arm64-musl":
+      optional: true
+    "@swc/core-linux-x64-gnu":
+      optional: true
+    "@swc/core-linux-x64-musl":
+      optional: true
+    "@swc/core-win32-arm64-msvc":
+      optional: true
+    "@swc/core-win32-ia32-msvc":
+      optional: true
+    "@swc/core-win32-x64-msvc":
+      optional: true
+  peerDependenciesMeta:
+    "@swc/helpers":
+      optional: true
+  checksum: b052926b1bbd99cf77896c01c9c84da4d31295ca8dcea93d600b7baf5ae4ea078b625a979cb28fe1ebf6d0d442fe66b68c39fa501f3aa3d5ae795cd7c234067b
   languageName: node
   linkType: hard
 
@@ -6621,6 +6753,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"effector-react@npm:^22.5.3":
+  version: 22.5.3
+  resolution: "effector-react@npm:22.5.3"
+  dependencies:
+    use-sync-external-store: ^1.0.0
+  peerDependencies:
+    effector: ^22.0.2
+    react: ">=16.8.0 <19.0.0"
+  checksum: 4f1df24b697fa6cb3127757db4f9a1b987b4915cae230eba630847f1f1f94fed17b066d0f1efdb32290a7e1d08864b838481d9b5c3930139fb13b3b40d3acad1
+  languageName: node
+  linkType: hard
+
+"effector@npm:^22.8.6":
+  version: 22.8.6
+  resolution: "effector@npm:22.8.6"
+  checksum: c30ed8574163963fd72595025ce59361aa4d1c5520ab53d77bcb2d1eb8d9f031ab855bd889d54f1b73321539f9563f4b0f92a958d3f657c1260a3abe5d8a1cc9
+  languageName: node
+  linkType: hard
+
 "ejs@npm:^3.1.8":
   version: 3.1.9
   resolution: "ejs@npm:3.1.9"
@@ -7849,11 +8000,16 @@ __metadata:
   resolution: "frontend@workspace:apps/frontend"
   dependencies:
     "@community/ui": "workspace:^"
+    "@effector/next": ^0.5.1
+    "@effector/swc-plugin": ^0.0.10
+    "@swc/core": ^1.3.73
     "@types/eslint": ^8
     "@types/node": 20.4.2
     "@types/react": 18.2.15
     "@types/react-dom": 18.2.7
     "@typescript-eslint/eslint-plugin": 6.1.0
+    effector: ^22.8.6
+    effector-react: ^22.5.3
     eslint: 8.45.0
     eslint-config-next: 13.4.10
     eslint-plugin-import: 2.27.5
@@ -13839,6 +13995,15 @@ __metadata:
     react: 16.8.0 - 18
     react-dom: 16.8.0 - 18
   checksum: 92be0ac34a3b3cf884cd55847c90792b5b44833dc258e96d650152815ad246afe45825aa223332203004d836535a927ab74f18dc0313229e2c7c69510eddf382
+  languageName: node
+  linkType: hard
+
+"use-sync-external-store@npm:^1.0.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 5c639e0f8da3521d605f59ce5be9e094ca772bd44a4ce7322b055a6f58eeed8dda3c94cabd90c7a41fb6fa852210092008afe48f7038792fd47501f33299116a
   languageName: node
   linkType: hard
 
