@@ -6765,6 +6765,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"effector-storage@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "effector-storage@npm:6.1.1"
+  peerDependencies:
+    effector: ">=22.0.0"
+  checksum: a185dc889460d9abe81b3b49812d69774d125f62b48637db883efa25a50def6572648663a014722e246ee1031405203110b06b88f117553e38abe15807356473
+  languageName: node
+  linkType: hard
+
 "effector@npm:^22.8.6":
   version: 22.8.6
   resolution: "effector@npm:22.8.6"
@@ -8010,6 +8019,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 6.1.0
     effector: ^22.8.6
     effector-react: ^22.5.3
+    effector-storage: ^6.1.1
     eslint: 8.45.0
     eslint-config-next: 13.4.10
     eslint-plugin-import: 2.27.5
