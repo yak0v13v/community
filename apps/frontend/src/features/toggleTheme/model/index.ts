@@ -14,7 +14,7 @@ export const detectThemeFx = createEffect<void, Theme>(() => {
   return Theme.light;
 });
 
-const setThemeAttributeToRootFx = createEffect<null | Theme, void>((theme) => {
+export const setThemeAttributeToRootFx = createEffect<null | Theme, void>((theme) => {
   document.documentElement.setAttribute("data-theme", theme ?? Theme.light);
 });
 
