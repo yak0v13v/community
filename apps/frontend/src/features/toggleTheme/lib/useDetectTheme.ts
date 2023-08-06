@@ -1,4 +1,4 @@
-import { detectThemeIfNotSet } from "../model";
+import { detectThemeIfNotSet } from "../model/theme";
 import { useUnit } from "effector-react";
 import { useEffect } from "react";
 

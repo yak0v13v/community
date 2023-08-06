@@ -1,5 +1,5 @@
-import { $theme, detectThemeFx, setTheme, setThemeAttributeToRootFx } from ".";
 import { Theme } from "../types";
+import { $theme, detectThemeFx, setTheme, setThemeAttributeToRootFx } from "./theme";
 import { allSettled, fork } from "effector";
 
 describe("Detect theme model", () => {
